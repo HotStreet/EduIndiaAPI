@@ -10,5 +10,5 @@
 
 class Subject < ActiveRecord::Base
 	has_many :associations
-	has_many :students, through: :associations, source: :
+	has_many :students, through: :associations
 end
